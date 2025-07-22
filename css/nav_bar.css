@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Mukta&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.empty{
+    height: 8vh;
+    width: 100vw;
+}
+
+
+nav{
+
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(8, 1, 54, 0.868);
+    height: 8vh;
+    width: 100vw;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 2px 4vh 0.5vh grey;
+}
+nav:hover{
+    background-color: rgb(8, 1, 54);
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+    font-family: mukta, 'sens-serif';
+}
+
+.nav_items{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 8vh;
+    padding: 2.2vh;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.nav_items:hover{
+    border: 0px solid rgb(255, 255, 255);
+    border-width: 0 0 1px 0;
+    background-color: rgb(9, 152, 229);
+}
+
+
+.nav_title{
+    line-height: 8vh;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: kanit;
+    font-size: 2.0em;
+}
+.nav_title:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+.nav_icons{
+    width: 35vw;
+    text-align: end;
+}
+
+.search_form{
+    display: inline;
+}
+.search_box{
+    height: 4vh;
+    width: 24vw;
+    border-radius: 4vh;
+    text-align: center;
+    border-width: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: mukta, 'sens-serif';
+    font-size: 1.05em;
+}
+.search_box:hover{
+    transform: scale(1.05,1.05);
+}
+
+
+.nav_icons i{
+    height: 2vh;
+    width: 6vh;
+    padding-right: 1.5vw;
+}
+.nav_icons i:hover{
+    transform: scale(1.2,1.2);
+}

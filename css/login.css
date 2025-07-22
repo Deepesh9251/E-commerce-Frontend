@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Aoboshi+One&family=Baloo+2&family=Bebas+Neue&family=Cherry+Bomb+One&family=Lilita+One&family=Merriweather:wght@700&family=Monomaniac+One&family=Noto+Sans+Chorasmian&family=Rubik+Puddles&family=Sigmar&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 105vh;
+}
+
+.btn {
+    border: 1px solid rgb(5, 5, 255);
+    border-radius: 2vh;
+    color: blue;
+    
+    height: 6vh;
+    width: 20vw;
+    padding: auto ;
+    font-size: large;
+    font-family: sans-serif;
+    background: white;
+}
+
+
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+}
+
+.login_container{
+    display: flex;
+    position: relative;
+    top: 15vh;
+    justify-content: center ;
+    align-items: center;
+}
+
+.half_box{
+    height: 65vh;
+    width: 30vw;
+}
+
+.side_image{
+    height: 65vh;
+    width: 30vw;
+}
+
+.login_form_box{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: center;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family:  Geneva, Tahoma, sans-serif;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#email{
+    margin: 5vh 5vw 2vh 5vw;
+    border: 0px;
+    border-bottom: 1px solid black;
+    height: 5vh;
+    width: 20vw;
+}
+
+
+#password{
+    margin: 0vh 5vw 3vh 5vw;
+    border: 0px;
+    border-bottom: 1px solid black;
+    height: 5vh;
+    width: 20vw;
+}
+
+
+
+
+#login_btn{
+    border: 1px solid rgb(5, 5, 255);
+    border-radius: 2vh;
+    color: blue;
+    
+    height: 6vh;
+    width: 20vw;
+    padding: auto ;
+    font-size: large;
+    font-family: sans-serif;
+    background: white;
+}
+
+#login_btn:hover{
+    background-image: linear-gradient(rgb(0, 217, 255),rgb(0, 119, 255));
+    background-image: linear-gradient(rgb(139, 109, 248),rgb(40, 235, 245));
+    border-color: white;
+    color: white;
+    font-weight: bold ;
+}
+
+#login_btn:active{
+    background: rgb(1, 22, 252);
+    color: rgb(255, 255, 255)
+}
+
+.other_links{
+    width: 20vw;
+    height: 3vh;
+    font-size: 1em;
+    display: flex;
+    justify-content:center;
+}
+
+#forget_password{
+    margin-top: 0.8vh;
+    font-family: sans-serif;
+    text-decoration: underline;
+    color: rgb(0, 100, 255);
+}
+
+#forget_password:hover{
+    color: rgb(4, 0, 255);
+    transform: scale(1.1,1.1);
+}
+
+
+.other_btn_container{
+    margin-top: 5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    width: 20vw;
+}
+
+#new_acc_link, #otp_link{
+    height: 4vh;
+    width: 10vw;
+    text-align: center;
+    
+    border: 1px solid blue;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+#new_acc_link:hover, #otp_link:hover{
+    background-image: linear-gradient(rgb(139, 109, 248),rgb(40, 235, 245));
+    border-color: white;
+    color: white;
+    font-weight: bold ;
+    
+}
+
+
+#new_acc_link:active, #otp_link:active{
+    background: rgb(167, 0, 250);
+    color: rgb(255, 255, 255)
+    
+}
+
+.line div{
+    background-color: grey;
+    margin-top: 4vh;
+    height: 1px;
+    width: 10vw;
+}
+.line{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.line p{
+
+    width: 8vw;
+    margin-top: 4vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9em;
+    color: grey;
+}
+
+.other_options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other_options a{
+    margin: 3vh 1vw ;
+    height: 6vh;
+    width: 3vw;
+
+}
+.other_options img{
+    height: 6vh;
+    width: 3vw;
+
+}
+
+.other_options img:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+footer{
+    position: relative;
+    bottom: -40vh;
+    height: 5vh;
+    width: 100vw;
+}
+footer p{
+    text-align: center;
+    color: rgb(0, 13, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

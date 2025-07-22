@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(rgba(120, 238, 238, 0.685), rgba(0, 183, 255, 0.653));
+}
+
+
+
+#main_heading{
+    line-height: 20vh;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 95vw;
+    margin: 0vh 2.5vw 10vh 2.5vw;
+
+}
+
+.sub_heading{
+    height: 7vh;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35vh;
+    width: 95vw;
+    border: 1px solid black;
+    box-shadow: 3px 3px 20px 3px rgba(128, 128, 128, 0.49);
+
+    background-color: white;
+}
+
+.banner a{
+    color: rgb(33, 112, 231);
+    text-decoration: none;
+}
+.banner a:hover{
+    text-decoration: underline;
+}
+.banner a:active{
+    text-decoration: none;
+    color: blue;
+}
+
+.item{
+    box-sizing: border-box;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+    font-family: heebo;
+}
+.item:hover{
+    transform: scale(1.1,1.1);
+    border: 0.1vh solid rgba(38, 0, 255, 0.785);
+
+    border-width: 0px;
+    box-shadow: 1px 1px 10px 1px rgba(87, 94, 95, 0.516);
+}
+
+.item_discount{
+    color: green;
+}
+
+.item_img{
+    height: 20vh;
+    width: 10vw;
+}

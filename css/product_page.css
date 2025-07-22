@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=IBM+Plex+Sans+Arabic:wght@600&family=Merriweather&family=Montserrat:wght@300&family=Noto+Sans&family=Ubuntu:wght@300&family=Varela+Round&family=Ysabeau:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400&display=swap');
+
+
+
+#main_box{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 33vw;
+}
+
+.product_image{
+    height: 70vh;
+    width: 30vw;
+}
+
+.title_main_box{
+    height: 80vh;
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo_box{
+    height: 25vh;
+    width: 27vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.logo{
+    height: 15vh;
+}
+
+.title_box{
+    width: 27vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(49, 49, 49);
+}
+.title_para{
+    width: 15vw;
+    font-size: 2.5em;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.detail_main_box{
+    height: 70vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name_box{
+    height: 8vh;
+    width: 20vw;
+    border: 2px solid grey;
+    padding: 2vh 4vw;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name_para{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(76, 75, 75);
+    font-weight: bold;
+    font-size: 1.0em;
+    text-align: center;
+}
+
+.detail_box{
+    height: 50vh;
+    width: 28vw;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.icons{
+    height: 10vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+}
+.quality_checked, .in_stock{
+    width: 8vw;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+}
+.tick_mark{
+    height: 3vh;
+}
+
+.stock_icon{
+    height: 3vh;
+}
+
+.price_box{
+    height: 8vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+
+.old_price{
+    font-family: Merriweather, sans-serif;
+    text-decoration: line-through;
+    font-size: 1.8em;
+    line-height: 1.9em;
+}
+.new_price{
+    color: red;
+    font-weight:800px;
+    font-family: Merriweather, sans-serif;
+    font-size: 2.8em;
+}
+
+
+
+.add_to_btn{
+    margin-top: 5vh;
+    height: 15vh;
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_button{
+    height: 6vh;
+    width: 20vw;
+    
+    background-color: white;
+    color: rgb(3, 223, 14);
+    border: none;
+    font-size: 1.1em;
+    border: 1px solid rgb(3, 223, 14);
+    font-family: 'Varela Round', sans-serif;
+    margin: 1vh ;
+}   
+.add_button:hover{
+    background-color: rgb(5, 217, 16);
+    color: white;
+    border: none;
+    cursor: pointer;
+}   
+.add_button:active{
+    background-color: rgb(48, 180, 0);
+}   
+
+.add_to_wishlist_button{
+    background-color: white;
+    color: rgb(255, 0, 132);
+    border: 1px solid rgb(255, 0, 132);
+}
+.add_to_wishlist_button:hover{
+    color: white;
+    background-color: rgb(255, 0, 132);
+    border: none;
+}
+.add_to_wishlist_button:active{
+    background-color: rgb(255, 0, 68);
+}
+
+
+
+
+.discount_container{
+    height: 17vh;
+    width: 17vh;
+    color: white;
+    background-image: url('../images/product page/red circle.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 17vh 17vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    top: 35vh;
+    right: 2vw;
+}
+
+.discount_number{
+    font-size: 3.5vh;
+    font-family: serif;
+    font-family: 'IBM Plex Sans Arabic', Merriweather, sans-serif;
+}
+.discount_text{
+    font-family: montserrat, serif;
+    font-size: 1.6vh;
+}
+
+.about_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+    border: 1px solid rgb(56, 56, 56);
+}
+
+.about_box h2{
+    margin-top: 5vh;
+    font-family: Ysabeau,noto sans;
+}
+
+.about_para{
+    font-family: montserrat, serif;
+    width: 80vw;
+    padding: 5vh 5vw;
+    line-height: 5vh;
+    text-align: justify;
+    color: rgb(51, 51, 52);
+}
+
+
+
+.more_detail_box{
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+    align-items: center;
+    margin: 6vh auto ;
+    border: 1px solid rgb(51, 51, 51);
+    
+}
+
+.more_detail_box h2{
+    font-family: Ysabeau,noto sans;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+
+}
+
+.more_detail_box ul{
+    margin-bottom: 5vh;
+    line-height: 5vh;
+    text-align: justify;
+    font-family: montserrat, serif;
+    color: rgb(50, 50, 50);
+    list-style: square;
+    
+}
+
+
+
+
+
+
+
+
+
+.empty_footer{
+    height: 15vh;
+    width: 100vw;
+}
+
+.footer_banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.826);
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    
+}
+.footer_banner:hover{
+    background-color: rgb(2, 2, 2);
+}
+
+.buy_btn{
+    height: 8vh;
+    width: 20vw;
+    border: 2px solid rgb(255, 77, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: Ysabeau,'noto sans', Merriweather, sans-serif;
+    color: rgb(255, 77, 0);
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.buy_btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 77, 0);
+    border-color: white;
+    cursor:pointer;
+}
+.buy_btn:active{
+    background-color: rgb(255, 34, 0);
+}
+
+.delivery, .return{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 95vw;
+    margin: 0vh 2.5vw 5vh 2.5vw;
+
+}
+
+.sub_heading{
+    height: 7vh;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35vh;
+    width: 95vw;
+    border: 1px solid black;
+    /* box-shadow: 3px 3px 20px 3px rgba(128, 128, 128, 0.49); */
+
+    background-color: white;
+}
+
+.banner a{
+    color: rgb(33, 112, 231);
+    text-decoration: none;
+}
+.banner a:hover{
+    text-decoration: underline;
+}
+.banner a:active{
+    text-decoration: none;
+    color: blue;
+}
+
+.item{
+    box-sizing: border-box;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+    font-family: heebo;
+}
+.item:hover{
+    transform: scale(1.1,1.1);
+    border: 0.1vh solid rgba(38, 0, 255, 0.785);
+
+    border-width: 0px;
+    box-shadow: 1px 1px 10px 1px rgba(87, 94, 95, 0.516);
+}
+
+.item_discount{
+    color: green;
+}
+
+.item_img{
+    height: 20vh;
+    width: 10vw;
+}
